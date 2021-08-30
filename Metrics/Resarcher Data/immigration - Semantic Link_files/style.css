@@ -1,0 +1,104 @@
+body { 
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+input {
+    font-size: 120%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 140%;
+}
+
+img {
+    border-style: none;
+    border-width: 0;
+}
+
+a { color:#044E80; font-weight:bold; text-decoration:none; }
+a:hover { color:#444; font-weight:bold; text-decoration:underline; }
+a:visited { color:#044E80; font-weight:bold; }
+a:active { color:#999; }
+
+.word {
+    margin: 10px;
+    padding: 5px;
+    width: 11em;
+    background-color: #0066ff; 
+    color: white;    
+    text-align: center;
+    font-weight: bold;
+    opacity: 0;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #888888;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#header {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    font-size: 100%;
+}
+
+#help {
+    float: right;
+    font-size: 75%;
+}
+
+#description p {
+    color: #333;
+    font-weight: bold;
+}
+
+#container {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container table {
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#container #search-button-col {
+    width: 5em;
+}
+
+#content {
+    text-align: justify;
+}
+
+#related {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#btnSearch {
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    font-size: 120%;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 3em;
+    font-size: 75%;
+}
+
+#loading-img {
+    opacity: 0;
+    display: none;
+}
+
+#search {
+    display: none;
+    margin-bottom: 1em;
+}
